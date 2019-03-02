@@ -81,3 +81,17 @@ a{
 #linksToSearch a:hover{
 color: aliceblue;
 }
+
+#searchList {
+    color: darkslategray;
+    font-size: 21pt;
+}
+#hoverLinks a:hover{
+    color: aliceblue;
+}
+
+#hoverLinks{
+        text-align: center;
+        padding-top: 5px;
+        
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <!--Need to add logo here-->
+       <div id="head_title"> <h>OUR MARKETPLACE</h> </div>
+   </header>
+   <nav>
+       <li> <a href="home.html">Home</a></li>
+       <li> <a href="home.html">News</a></li>
+       <li style="float: right"> <a href="home.html">About</a></li>
+       <li style="float:right"><a href="home.html">Contact</a></li>
+       <li style="float:right"> <a id="flRight" href="home.html">Log in</a></li>
+   </nav>
+   <head>
+       <link rel="stylesheet" type="text/css" href="pageStyle.css">
+   </head>
+    <body >
+        <div style="margin-left:10px;">
+            <h2>Please fill out the following:</h2>
+        <div style="margin-left:55px">
+        <form target="_blank">
+            <div>Categorize:
+                <select id="dropDownCategorize">
+                    <option value="Choose">Choose one</option>
+                    <option value="BooksOption">Books</option>
+                    <option value="FurnitureOption">Furniture</option>
+                    <option value="ElectronicsOption">Electronics</option>
+                    <option value="OtherOption">Other</option>
+                </select>
+            </div>
+            <br>
+            <div style="padding-bottom: 15px;">
+                Description: <br style="padding-bottom:10px">
+                <textarea required rows="5" cols="50"></textarea> <br>
+            </div>
+            Add Pictures: 
+            <button>Browse</button>
+            <div style="">
+            <h4>Contact Information: <h4></h4> 
+                Name: 
+                <input required type="text" name="Name">
+                Email: 
+                <input required type="email" name="email">
+                Phone: 
+                <input required type="tel" size="10" maxlength="10" name="phone"><br>
+            </div>
+            <button>Post</button>
+        </form>
+        </div>
+        </div>
+    </body> 
+</html>

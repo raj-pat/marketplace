@@ -47,7 +47,7 @@ li a{
 #link_outer{
     text-align: center;
 }
-span a:hover{
+#link_outer a:hover{
     font-size: 22pt;
     color: rgb(154, 212, 212);
 }
@@ -66,7 +66,7 @@ a{
     background-color:  rgb(46, 54, 53);
     border-width: 1.5px;
     text-decoration: none;
-    color: whitesmoke;
+    
 }
 /* Buy home page style */
 #searchSubmit{
@@ -93,5 +93,29 @@ color: aliceblue;
 #hoverLinks{
         text-align: center;
         padding-top: 5px;
-        
+}
+#loginPageLinks{
+    color: darkslategray;
+    text-align: center; 
+    
+    
+}
+
+#loginPageLinks a {
+    color: darkslategray;
+}
+
+#loginPageLinks a:hover{
+    color: black;
+}
+
+#editPostLinks{
+    color: cornflowerblue;
+}
+#editPostLinks a{
+    color: blue;
+    text-underline-position: below;
+}
+#editPostLinks a:hover{
+    color: maroon;
 }

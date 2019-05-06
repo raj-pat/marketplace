@@ -13,12 +13,13 @@
    </nav>
    <head>
        <link rel="stylesheet" type="text/css" href="pageStyle.css">
+       <script type ="text/javascript" src="sell_home.js"></script> </script>
    </head>
     <body >
         <div style="margin-left:10px;">
             <h2>Please fill out the following:</h2>
         <div style="margin-left:55px">
-        <form target="_blank">
+        <form target="_blank" id="sell_home">
             <div>Categorize:
                 <select id="dropDownCategorize">
                     <option value="Choose">Choose one</option>
@@ -34,7 +35,8 @@
                 <textarea required rows="5" cols="50"></textarea> <br>
             </div>
             Add Pictures: 
-            <button>Browse</button>
+            <input type="file" id="imageFile">
+            
             <br>
             Selling price: 
             <input required type="number" name="sellingPrice" size="5" maxlength="5">
@@ -47,8 +49,9 @@
                 Phone: 
                 <input required type="tel" size="10" maxlength="10" name="phone"><br>
             </div>
-            <button>Post</button>
+            <button onclick="getFormData()">Post</button>
         </form>
+        <p id= "fill"></p>
         </div>
         </div>
     </body> 
